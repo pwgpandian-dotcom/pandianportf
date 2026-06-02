@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .hoverEffect {
+    @apply transition-all ease-in-out duration-300;
+  }
+}
+
+/* Profile image float animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+/* Blue-purple glow pulse */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 40px 10px rgba(99, 102, 241, 0.35),
+      0 0 80px 20px rgba(59, 130, 246, 0.15);
+  }
+  50% {
+    box-shadow:
+      0 0 60px 20px rgba(99, 102, 241, 0.55),
+      0 0 120px 40px rgba(59, 130, 246, 0.25);
+  }
+}
+
+.profile-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.profile-glow {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
