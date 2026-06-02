@@ -1,17 +1,5 @@
-// auth.ts
-import NextAuth from "next-auth";
-import GitHubProvider from "next-auth/providers/github";
-import GoogleProvider from "next-auth/providers/google";
-
-export const { auth, signIn, signOut } = NextAuth({
-  providers: [
-    GitHubProvider({
-      clientId: process.env.GITHUB_ID!,
-      clientSecret: process.env.GITHUB_SECRET!,
-    }),
-    GoogleProvider({
-      clientId: process.env.GOOGLE_ID!,
-      clientSecret: process.env.GOOGLE_SECRET!,
-    }),
-  ],
-});
+// Auth is not used in this portfolio.
+// Keeping this file as a safe no-op to avoid import errors from any residual references.
+export const auth = async () => null;
+export const signIn = async () => null;
+export const signOut = async () => null;
