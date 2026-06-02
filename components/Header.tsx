@@ -37,7 +37,7 @@ const Header = () => {
           href="#home"
           className="text-xl font-bold text-white hover:text-blue-400 transition-colors duration-200"
         >
-          Pandian<span className="text-blue-400">.</span>
+          Dinesh Pandian<span className="text-blue-400">.</span>
         </a>
 
         {/* Desktop nav */}

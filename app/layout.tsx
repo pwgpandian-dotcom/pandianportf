@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pandian D | Software Developer",
+  title: "Dinesh Pandian | Software Developer",
   description:
-    "Portfolio of Pandian D — Software Developer specializing in MERN Stack, ERP systems, and AI solutions.",
+    "Portfolio of Dinesh Pandian — Software Developer specializing in MERN Stack, ERP systems, and AI solutions.",
 };
 
 export const viewport: Viewport = {

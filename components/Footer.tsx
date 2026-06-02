@@ -30,7 +30,7 @@ const Footer = () => {
               href="#home"
               className="text-xl font-bold text-white hover:text-blue-400 transition-colors"
             >
-              Pandian<span className="text-blue-400">.</span>
+              Dinesh Pandian<span className="text-blue-400">.</span>
             </a>
             <p className="text-slate-400 text-sm max-w-xs leading-relaxed">
               Software Developer specializing in MERN Stack, ERP systems, and
@@ -69,7 +69,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-2">
           <p className="text-slate-500 text-xs">
-            © {new Date().getFullYear()} Pandian D. All rights reserved.
+            © {new Date().getFullYear()} Dinesh Pandian. All rights reserved.
           </p>
           <p className="text-slate-500 text-xs">
             Built with Next.js, Tailwind CSS &amp; Motion

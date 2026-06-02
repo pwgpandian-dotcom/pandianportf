@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Pandian D | Software Developer — Enterprise, ERP & AI Solutions",
+  title: "Dinesh Pandian | Software Developer — Enterprise, ERP & AI Solutions",
   description:
     "Software Developer with 2+ years of experience building enterprise applications, ERP systems, CRM platforms, SaaS products, and AI-powered solutions. Based in Bengaluru, India.",
   keywords: [
@@ -16,17 +16,17 @@ export const metadata: Metadata = {
     "React.js",
     "Node.js",
     "Bengaluru",
-    "Pandian D",
+    "Dinesh Pandian",
   ],
-  authors: [{ name: "Pandian D" }],
-  creator: "Pandian D",
+  authors: [{ name: "Dinesh Pandian" }],
+  creator: "Dinesh Pandian",
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Pandian D | Software Developer",
+    title: "Dinesh Pandian | Software Developer",
     description:
       "Software Developer specializing in enterprise applications, ERP & CRM systems, SaaS platforms, and AI-powered solutions.",
-    siteName: "Pandian D Portfolio",
+    siteName: "Dinesh Pandian Portfolio",
   },
 };
 

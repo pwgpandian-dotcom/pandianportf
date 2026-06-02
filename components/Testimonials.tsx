@@ -12,21 +12,21 @@ const data = [
   {
     title: "Testimonials",
     description:
-      "Pandian transformed our vision into a fully functional web app using the MERN stack. His attention to detail and dedication to clean, scalable code truly impressed our team.",
+      "Dinesh Pandian transformed our vision into a fully functional web app using the MERN stack. His attention to detail and dedication to clean, scalable code truly impressed our team.",
     author: "Ravi K",
     author_title: "Product Manager at HealthTech Startup",
   },
   {
     title: "Testimonials",
     description:
-      "We hired Pandian for a freelance eCommerce platform. His ability to handle frontend, backend, and database integration was exceptional. He even added AI-based suggestions",
+      "We hired Dinesh Pandian for a freelance eCommerce platform. His ability to handle frontend, backend, and database integration was exceptional. He even added AI-based suggestions",
     author: "Sowmya N",
     author_title: "Founder of DecorCart",
   },
   {
     title: "Testimonials",
     description:
-      "As a teammate, Pandian was collaborative and highly resourceful. He contributed to solving major React bugs during our project deadline rush. A true team player",
+      "As a teammate, Dinesh Pandian was collaborative and highly resourceful. He contributed to solving major React bugs during our project deadline rush. A true team player",
     author: "Jyothi M",
     author_title: "React Developer at Our Company",
   },

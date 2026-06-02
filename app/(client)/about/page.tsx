@@ -18,7 +18,7 @@ const AboutPage = () => {
               <div className="relative bg-gradient-to-br from-slate-900 to-blue-950 border border-white/10 rounded-2xl p-2.5 shadow-2xl group-hover:border-blue-400/40 transition-all duration-300">
                 <Image
                   src="/images/dineshj.JPEG"
-                  alt="Pandian D - Software Developer"
+                  alt="Dinesh Pandian - Software Developer"
                   width={192}
                   height={220}
                   className="rounded-xl object-cover object-top w-44 h-52 group-hover:scale-[1.02] transition-transform duration-300"
@@ -45,7 +45,7 @@ const AboutPage = () => {
               Software Developer
             </div>
             <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-darkColor sm:text-4xl">
-              Pandian D
+              Dinesh Pandian
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-darkColor/80">
               Passionate about building scalable and efficient software solutions.

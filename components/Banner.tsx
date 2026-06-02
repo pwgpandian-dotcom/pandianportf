@@ -44,9 +44,9 @@ const Banner = () => {
             variants={fadeUp}
             className="text-5xl md:text-7xl font-bold leading-tight"
           >
-            <span className="text-white">Pandian</span>
+            <span className="text-white">Dinesh</span>
             <span className="bg-gradient-to-r from-blue-400 via-indigo-400 to-violet-400 bg-clip-text text-transparent">
-              {" "}D
+              {" "}Pandian
             </span>
           </motion.h1>
 
@@ -131,7 +131,7 @@ const Banner = () => {
               <div className="absolute inset-3 rounded-2xl bg-gradient-to-br from-blue-500/10 to-indigo-600/10 pointer-events-none" />
               <Image
                 src="/images/dineshj.JPEG"
-                alt="Pandian D - Software Developer"
+                alt="Dinesh Pandian - Software Developer"
                 width={340}
                 height={420}
                 priority
